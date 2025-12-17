@@ -209,35 +209,34 @@
       <div class="col-span-1 md:col-span-2">
         <h4 class="text-gray-400 mb-6 text-sm">General</h4>
         <ul class="space-y-2 text-sm text-gray-600">
-          <li><a href="/" class="hover:text-black">People</a></li>
-          <li><a href="/" class="hover:text-black">Process</a></li>
-          <li><a href="/" class="hover:text-black">Projects</a></li>
-          <li><a href="/" class="hover:text-black">News</a></li>
-          <li><a href="/" class="hover:text-black">About</a></li>
-          <li><a href="/" class="hover:text-black">Sustainability</a></li>
-          <li><a href="/" class="hover:text-black">Perspectives</a></li>
+          <li><a href="/" class="hover:text-black">About us</a></li>
+          <li><a href="/" class="hover:text-black">Leadership</a></li>
+          <li><a href="/" class="hover:text-black">Investment team</a></li>
+          <li><a href="/" class="hover:text-black">Market insights</a></li>
+          <li><a href="/" class="hover:text-black">News & media</a></li>
+          <li><a href="/" class="hover:text-black">Careers</a></li>
           <li><a href="/" class="hover:text-black">Contact</a></li>
-          <li><a href="/" class="hover:text-black">Studios</a></li>
         </ul>
       </div>
 
       <div class="col-span-1 md:col-span-2">
-        <h4 class="text-gray-400 mb-6 text-sm">Disciplines</h4>
+        <h4 class="text-gray-400 mb-6 text-sm">Investment strategies</h4>
         <ul class="space-y-2 text-sm text-gray-600">
-          <li><a href="/" class="hover:text-black">Architecture</a></li>
-          <li><a href="/" class="hover:text-black">Landscape</a></li>
-          <li><a href="/" class="hover:text-black">Interior</a></li>
-          <li><a href="/" class="hover:text-black">Product</a></li>
-          <li><a href="/" class="hover:text-black">Brand & Experience</a></li>
+          <li><a href="/" class="hover:text-black">Structured alpha</a></li>
+          <li><a href="/" class="hover:text-black">Convertible securities</a></li>
+          <li><a href="/" class="hover:text-black">Options-based income</a></li>
+          <li><a href="/" class="hover:text-black">Alternative investments</a></li>
+          <li><a href="/" class="hover:text-black">Risk-managed portfolios</a></li>
         </ul>
       </div>
 
       <div class="col-span-1 md:col-span-2">
-        <h4 class="text-gray-400 mb-6 text-sm">More</h4>
+        <h4 class="text-gray-400 mb-6 text-sm">Resources</h4>
         <ul class="space-y-2 text-sm text-gray-600">
-          <li><a href="/" class="hover:text-black">Calendar</a></li>
-          <li><a href="/" class="hover:text-black">Awards</a></li>
-          <li><a href="/" class="hover:text-black">Snøhetta Books</a></li>
+          <li><a href="/" class="hover:text-black">Market outlook</a></li>
+          <li><a href="/" class="hover:text-black">Research & commentary</a></li>
+          <li><a href="/" class="hover:text-black">Educational resources</a></li>
+          <li><a href="/" class="hover:text-black">Fund documents</a></li>
         </ul>
       </div>
 
@@ -252,7 +251,7 @@
 
     <!-- Bottom Footer -->
     <div class="mt-20 py-8 flex flex-col md:flex-row justify-between items-start md:items-center text-xs text-gray-500 gap-4">
-      <div>© Snøhetta 2025</div>
+      <div>© Calamos Investments 2025</div>
       
       <a href="/" class="flex items-center gap-1 hover:text-black">
         ↗ Current Openings
