@@ -13,7 +13,7 @@
 </script>
 
 <header class="fixed top-0 left-0 w-full z-50 px-5 py-6 md:px-10 md:py-8 flex justify-between items-start bg-white/90 backdrop-blur-sm transition-all duration-300 text-black">
-  <a href="/" class="text-xl md:text-2xl font-normal tracking-wide z-10">Snøhetta</a>
+  <a href="/" class="text-xl md:text-2xl font-normal tracking-wide z-10">Calamos Investments</a>
   
   <button class="absolute left-1/2 -translate-x-1/2 top-6 md:top-8 text-lg font-normal hover:opacity-70 transition-opacity z-10">
     Menu

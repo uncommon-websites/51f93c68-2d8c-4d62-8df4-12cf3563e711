@@ -3,41 +3,41 @@
   import Section from "$lib/components/Section.svelte";
   
   const disciplines = [
-    "Architecture",
-    "Landscape Architecture",
-    "Interior Architecture",
-    "Product Design",
-    "Brand & Experience"
+    "Structured Alpha Strategies",
+    "Convertible Securities",
+    "Options-Based Income",
+    "Alternative Investments",
+    "Risk-Managed Portfolios"
   ];
 
   const news = [
     {
-      date: "08 December 2025",
-      title: "The Joslyn Art Museum receives Prix Versailles World Title for Exterior Design",
-      image: "https://images.unsplash.com/photo-1629904853716-f004320d874c?q=80&w=1000&auto=format&fit=crop"
+      date: "15 January 2025",
+      title: "Calamos Expands Alternative Investment Education Programs for RIA Partners",
+      image: "/generated/image-professional-investment-conference-with--1766010892767-4.webp"
     },
     {
-      date: "03 December 2025",
-      title: "La Nube wins Children in Museums International Award",
-      image: "https://images.unsplash.com/photo-1486325212027-8081e485255e?q=80&w=1000&auto=format&fit=crop"
+      date: "08 January 2025",
+      title: "Structured Alpha Strategies Deliver Consistent Risk-Adjusted Returns in Volatile Markets",
+      image: "/generated/image-modern-portfolio-management-team-collabo-1766010896196-5.webp"
     },
     {
-      date: "03 December 2025",
-      title: "Joslyn Museum of Art Expansion Receives Top Awards",
-      image: "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=1000&auto=format&fit=crop"
+      date: "03 January 2025",
+      title: "Market Outlook 2025: Navigating Opportunities in Alternative Investments",
+      image: "/generated/image-financial-data-visualization-on-large-sc-1766010899471-6.webp"
     }
   ];
 
   const projects = [
-    { name: "Bibliotheca Alexandrina", desc: "A Library for the World", highlight: true },
-    { name: "Norwegian National Opera and Ballet", desc: "", highlight: true },
-    { name: "National September 11 Memorial Museum", desc: "", highlight: true },
-    { name: "Times Square", desc: "Putting the “square” back", highlight: false },
-    { name: "Viewpoint Snøhetta", desc: "The Norwegian Wild Reindeer", highlight: false },
-    { name: "Lascaux IV", desc: "International Centre for Cave Art", highlight: false },
-    { name: "Under", desc: "Europe's First Underwater Restaurant", highlight: false },
-    { name: "Powerhouse Brattørkaia", desc: "The northernmost energy-positive building", highlight: false },
-    { name: "King Abdulaziz Centre for World Culture", desc: "", highlight: true }
+    { name: "Calamos Structured Alpha Fund", desc: "Equity exposure with downside protection", highlight: true },
+    { name: "Convertible Opportunities Strategy", desc: "Asymmetric risk\/reward profiles", highlight: true },
+    { name: "Options-Based Income Solutions", desc: "Systematic income generation", highlight: true },
+    { name: "Global Alternative Income Fund", desc: "Putting the “square” back", highlight: false },
+    { name: "Market Neutral Income Strategy", desc: "Low correlation to traditional markets", highlight: false },
+    { name: "Phineus Long\/Short Fund", desc: "Active equity hedge strategy", highlight: false },
+    { name: "Timpani Small Cap Growth", desc: "Growth with risk management", highlight: false },
+    { name: "Convertible \& High Income Fund", desc: "Hybrid securities expertise", highlight: false },
+    { name: "Hedged Equity Strategy", desc: "Protection in volatile markets", highlight: true }
   ];
   let carousel: HTMLElement;
 
@@ -61,7 +61,7 @@
   <!-- Hero Headline -->
   <div class="mb-20 md:mb-32 max-w-5xl">
     <h1 class="text-4xl md:text-6xl lg:text-7xl leading-[1.1] font-normal tracking-tight">
-      Snøhetta is a global transdisciplinary practice, working on projects of all scales.
+      Calamos delivers institutional-grade alternative investments to individual investors through disciplined, risk-managed strategies.
     </h1>
   </div>
 
@@ -70,31 +70,31 @@
     <div bind:this={carousel} class="flex gap-4 md:gap-8 overflow-x-auto pb-8 snap-x snap-mandatory scrollbar-hide px-5 md:px-10">
       <!-- Left Image (Partial) -->
       <div class="shrink-0 w-[80vw] md:w-[60vw] lg:w-[40vw] snap-center opacity-50 grayscale transition-all hover:grayscale-0 hover:opacity-100">
-        <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=1600&auto=format&fit=crop" alt="Project" class="w-full h-[400px] md:h-[600px] object-cover" />
+        <img src="/generated/image-investment-team-analyzing-market-data-on-1766010877978-1.webp" alt="Investment Analysis" class="w-full h-[400px] md:h-[600px] object-cover" />
       </div>
       
       <!-- Center Image (Main) -->
       <div class="shrink-0 w-[90vw] md:w-[70vw] lg:w-[50vw] snap-center relative">
-        <img src="https://images.unsplash.com/photo-1506157786151-b8491531f063?q=80&w=1600&auto=format&fit=crop" alt="St. Louis Symphony Orchestra" class="w-full h-[400px] md:h-[600px] object-cover" />
+        <img src="/generated/image-professional-financial-advisor-meeting-w-1766010869475-0.webp" alt="Financial Advisory Partnership" class="w-full h-[400px] md:h-[600px] object-cover" />
         <div class="mt-4">
-          <h3 class="text-lg font-medium">St. Louis Symphony Orchestra</h3>
-          <p class="text-gray-500 text-lg">A facility to nurture the creative process</p>
+          <h3 class="text-lg font-medium">Partnering with Financial Advisors</h3>
+          <p class="text-gray-500 text-lg">Empowering RIAs with institutional-grade alternatives</p>
         </div>
       </div>
 
       <!-- Right Image (Partial) -->
       <div class="shrink-0 w-[80vw] md:w-[60vw] lg:w-[40vw] snap-center opacity-50 grayscale transition-all hover:grayscale-0 hover:opacity-100">
-        <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1600&auto=format&fit=crop" alt="Project" class="w-full h-[400px] md:h-[600px] object-cover" />
+        <img src="/generated/image-senior-financial-advisor-reviewing-portf-1766010884256-2.webp" alt="Client Advisory" class="w-full h-[400px] md:h-[600px] object-cover" />
       </div>
        <!-- Extra Image -->
        <div class="shrink-0 w-[80vw] md:w-[60vw] lg:w-[40vw] snap-center opacity-50 grayscale transition-all hover:grayscale-0 hover:opacity-100">
-        <img src="https://images.unsplash.com/photo-1511818966892-d7d671e672a2?q=80&w=1600&auto=format&fit=crop" alt="Project" class="w-full h-[400px] md:h-[600px] object-cover" />
+        <img src="/generated/image-ria-advisor-working-at-desk-with-financi-1766010888683-3.webp" alt="RIA Professional" class="w-full h-[400px] md:h-[600px] object-cover" />
       </div>
     </div>
   </div>
 
-  <!-- Disciplines -->
-  <Section label="Disciplines">
+  <!-- Investment Strategies -->
+  <Section label="Investment Strategies">
     <div class="flex flex-col border-t border-gray-200">
       {#each disciplines as discipline}
         <a href="/" class="py-6 border-b border-gray-200 text-3xl md:text-4xl lg:text-5xl font-normal hover:text-gray-500 transition-colors block">
@@ -104,8 +104,8 @@
     </div>
   </Section>
 
-  <!-- Latest News -->
-  <Section label="Latest News" link="/" linkText="All articles">
+  <!-- Market Insights -->
+  <Section label="Market Insights" link="/" linkText="All insights">
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
       {#each news as item}
         <article class="group cursor-pointer">
@@ -133,26 +133,26 @@
     </div>
   </Section>
 
-  <!-- Process & Sustainability -->
+  <!-- Our Approach & Legacy -->
   <div class="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-20 py-20 md:py-32">
     <div>
-      <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1200&auto=format&fit=crop" alt="Our process" class="w-full aspect-[4/3] object-cover mb-6" />
-      <h3 class="text-xl font-medium mb-2">Our process</h3>
+      <img src="/generated/image-investment-professionals-in-strategy-mee-1766010903031-7.webp" alt="Our Investment Approach" class="w-full aspect-[4/3] object-cover mb-6" />
+      <h3 class="text-xl font-medium mb-2">Disciplined Investment Approach</h3>
       <p class="text-gray-500 text-lg leading-relaxed">
-        Our unique process has been fine-tuned since our beginnings in 1989. Learn more about our transdisciplinary approach to architecture and design.
+        Our systematic process has been refined since 1977, combining rigorous risk management with institutional-grade research to deliver consistent results for investors.
       </p>
     </div>
     <div>
-      <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?q=80&w=1200&auto=format&fit=crop" alt="Sustainability" class="w-full aspect-[4/3] object-cover mb-6" />
-      <h3 class="text-xl font-medium mb-2">Sustainability and Responsibility</h3>
+      <img src="/generated/image-distinguished-senior-executive-in-profes-1766010906314-8.webp" alt="Founder Legacy" class="w-full aspect-[4/3] object-cover mb-6" />
+      <h3 class="text-xl font-medium mb-2">Military Discipline, Investment Excellence</h3>
       <p class="text-gray-500 text-lg leading-relaxed">
-        Since our founding in the late 1980s, we have been guided by a deep commitment to environmental and cultural sensitivity.
+        Founded by Air Force veteran John P. Calamos Sr., our firm embodies military precision and discipline in every investment decision, democratizing sophisticated strategies for all investors.
       </p>
     </div>
   </div>
 
-  <!-- Highlighted Projects -->
-  <Section label="Highlighted Projects">
+  <!-- Investment Solutions -->
+  <Section label="Investment Solutions">
     <div class="flex flex-col gap-2">
       {#each projects as project}
         <a href="/" class="group block">
@@ -166,18 +166,18 @@
       {/each}
       
       <a href="/" class="inline-flex items-center gap-2 text-lg text-gray-500 mt-12 hover:text-black transition-colors group">
-        → <span class="group-hover:translate-x-1 transition-transform">See all of our projects</span>
+        → <span class="group-hover:translate-x-1 transition-transform">Explore all investment solutions</span>
       </a>
     </div>
   </Section>
 
-  <!-- Get in touch -->
+  <!-- Partner with Us -->
   <div class="py-20 md:py-32">
     <div class="max-w-xl">
-      <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=1200&auto=format&fit=crop" alt="Get in touch" class="w-full aspect-[3/2] object-cover mb-6" />
-      <h3 class="text-xl font-medium mb-2">Get in touch</h3>
+      <img src="/generated/image-financial-advisor-presenting-to-small-gr-1766010909553-9.webp" alt="Partner with Calamos" class="w-full aspect-[3/2] object-cover mb-6" />
+      <h3 class="text-xl font-medium mb-2">Partner with Calamos</h3>
       <p class="text-gray-500 text-lg mb-6">
-        We'd love to hear from you. Depending on your inquiry, you'll find the relevant contact details here.
+        Join our network of financial advisors. Discover how Calamos can help you deliver institutional-grade alternatives to your clients.
       </p>
       <button class="w-10 h-10 border border-gray-200 flex items-center justify-center hover:bg-black hover:text-white transition-colors">
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
